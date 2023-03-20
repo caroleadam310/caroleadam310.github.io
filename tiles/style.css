@@ -4,9 +4,6 @@ body{
   background-color: #000;
 
 }
-
-
-
 .outer{
   text-align: center;
 }
@@ -14,12 +11,38 @@ body{
 .page{
 	position:relative;
 	margin-top:0px;
-	background-color: #FFF;
-  max-width:400px;
-max-width:600px;
+	background-color: white;
+  max-width:1200px;
+max-width:1200px;
   width:100%;
   height:100%;
   display: inline-block;
   text-align: left;
-  height:99vh;
+  height:600px;
 }
+.navbar{
+	position: sticky;
+	top:0;
+	width:100%
+		height:100px;
+	background-color:black;
+	z-index: 100;
+	opacity:.8;
+	
+	}
+.tile{
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 600px;
+	
+}
+.tilebg1{
+	background-image: url("tiles/imag/whitelotus1.jpg");
+	
+}
+.tilebg2{
+	background-image: url("tiles/img/whitelotus2.jpg")
+	}
+.tilebg3{
+	background-image: url("tiles/img/whitelotus3.jpg")
+	}
