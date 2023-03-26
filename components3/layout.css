@@ -1,0 +1,78 @@
+body{
+
+  font-family: sans-serif;
+
+  color:red;
+
+
+
+}
+
+.page{
+max-width: 1400px;
+width: 100%;
+display: inline-block;
+
+}
+
+.topnav{
+
+  background-color:black;
+
+  height:100px;
+
+  text-align: left;
+
+	border: 1px black;
+
+	margin-bottom: 20px;
+}
+
+.hero_content{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 10px;
+font-family: sans-serif;
+font-size: 14px;
+text-align: center;
+}
+/* HERO IMAGE */
+img{
+  max-width:100%; 
+  padding: 30px;
+}
+.image-class {
+  width: 1200px; /* Adjust the width and height as per your image size */
+  height: 1200px;
+  transition: transform 0.5s ease; /* Add the transition property with duration and easing */
+}
+
+.image-class:hover {
+  transform: scale(1.2); 
+img:hover{
+  animation-fill-mode: forwards;
+  animation-name: move;
+  animation-duration: .5s;
+ animation-timing-function:ease-in;
+}
+@keyframes move{
+from{transform: scale(1,1);}
+to {transform: scale(1.2, 1.2);}
+}
+.hero_text{
+  display: inline-block;
+  width: 100%;
+  font-family:san-serif;
+  }
+.text{
+  text-align: left;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 59px;
+  text-align: center;
+  padding-top:30px;
+    
+
