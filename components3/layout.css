@@ -43,13 +43,12 @@ img{
   padding: 30px;
 }
 .image-class {
-  width: 1200px; /* Adjust the width and height as per your image size */
+  width: 1200px; 
   height: 1200px;
-  transition: transform 0.5s ease; /* Add the transition property with duration and easing */
-}
+  transition: transform 0.5s ease;
 
 .image-class:hover {
-  transform: scale(1.2); 
+  transform: scale(1.4); 
 img:hover{
   animation-fill-mode: forwards;
   animation-name: move;
@@ -58,7 +57,7 @@ img:hover{
 }
 @keyframes move{
 from{transform: scale(1,1);}
-to {transform: scale(1.2, 1.2);}
+to {transform: scale(1.2, 1.4);}
 }
 .hero_text{
   display: inline-block;
